@@ -27,6 +27,10 @@ const itemSchema = new mongoose.Schema(
       default: "",
       trim: true,
     },
+    freeshippingavailability : {
+      type: Boolean,
+      default: false
+    }
   },
   { timestamps: true }
 );
